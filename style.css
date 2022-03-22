@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  background: linear-gradient(to bottom, #66ccff 0%, #ccff99 100%);
+  font-family: "Bebas Neue", cursive;
+}
+
+.background-profile {
+  background: url("https://img.wallpapersafari.com/desktop/1366/768/56/7/XJS81C.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.container {
+  background: black;
+  margin: 40px;
+  border-radius: 30px;
+  box-shadow: 12px 12px 12px #0e1d2f;
+  padding: 60px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  border-radius: 500px;
+  background: white;
+  max-height: 160px;
+  margin: 30px;
+  display: flex;
+}
+
+.tittle {
+  margin-top: -60px;
+  margin-left: 10px;
+  color: white;
+}
+
+.tittle h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.tittle h2 {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.theme button {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  color: white;
+  background: black;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projects {
+  margin-top: 20px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.projects-tittle {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.project-item {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#footer {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 500px;
+  margin-top: 50px;
+}
